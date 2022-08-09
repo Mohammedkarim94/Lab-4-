@@ -5,7 +5,7 @@ metadata:
   namespace: rbac-test
 subjects:
 - kind: User
-  name: clo835-user-k8s
+  name: BilboBaggins-k8s
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role

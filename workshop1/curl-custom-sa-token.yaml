@@ -2,11 +2,11 @@ apiVersion: v1
 kind: Pod
 metadata: 
    name: curl-custom-sa-token
-   namespace: week11
+   namespace: rbac-test
    labels:
      week: "week11"
 spec:
-  serviceAccountName: legolas
+  serviceAccountName: mohammedk
   containers:
   - name: main
     image: curlimages/curl
